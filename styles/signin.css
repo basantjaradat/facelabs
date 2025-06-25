@@ -1,0 +1,92 @@
+footer {
+    background-color: #F8F1F4;
+    color: #844F5F;
+    text-align: center;
+    padding: 10px;
+    margin-right: 2rem;
+    margin-top: 10rem;
+}
+body {
+    background-color: #F8F1F4; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.title{
+    font-family: "Gill Sans", sans-serif;
+    padding: 0;
+    margin-left: 10pt;
+    font-size: 20pt;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 430pt;
+    margin-top: -28pt;
+    
+}
+
+ul.horizontal-menu li {
+    display: inline;
+    margin-right: 30px; 
+    float: center;
+}
+
+ul.horizontal-menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12pt;
+    font-family: "Gill Sans", sans-serif;
+}
+ul.horizontal-menu li a:hover {
+    background-color: #844F5F; 
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.title1{
+    font-family: "Gill Sans", sans-serif;
+    padding: 0;
+    margin-left: 40.5rem;
+    font-size: 35pt;
+    color: #844F5F;
+    margin-top: 10rem;
+}
+
+
+.signin-container {
+    margin-top: 3rem;
+    max-width: 30rem;
+    margin-left: 30rem;
+    padding: 2rem;
+    background-color: #F8F1F4;
+}
+
+
+.signin-container label,
+.signin-container input {
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+.signin-container input[type="email"],
+.signin-container input[type="password"]
+    {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #fce8ea;
+    border-radius: 4px;
+}
+
+.signin-container button {
+    background-color: #844F5F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 11.5rem;
+}

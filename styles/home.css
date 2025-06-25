@@ -1,0 +1,241 @@
+footer {
+    background-color: #F8F1F4;
+    color: #844F5F;
+    text-align: center;
+    padding: 10px;
+}
+.header-container{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+}
+.title{
+    font-family: "Gill Sans", sans-serif;
+    padding: 0;
+    margin-left: 10pt;
+    font-size: 20pt;
+    
+}
+
+.icons {
+    display: inline;
+    float: right;
+    margin-top: -24pt;
+    
+}
+.icons i {
+    font-size: 20px;
+    list-style-type: none;
+    margin-right: 40px;
+}
+.icons i:hover {
+    color: #844F5F; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 450pt;
+    margin-top: -28pt;
+    
+}
+
+ul.horizontal-menu li {
+    display: inline;
+    margin-right: 30px; 
+    float: center;
+}
+
+ul.horizontal-menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12pt;
+    font-family: "Gill Sans", sans-serif;
+}
+ul.horizontal-menu li a:hover {
+    background-color: #844F5F; 
+    color: #ffffff;
+    border-radius: 5px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 1485px;
+    height: 642px;
+    margin-top: 10px;
+}
+
+.image-majortext {
+    position: absolute;
+    top: 26%;
+    left: 20%; 
+    transform: translate(-50%, -50%); 
+    color: #844F5F;
+    font-size: 30pt;
+    font-family: "Gill Sans", sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.image-text {
+    position: absolute;
+    top: 56%; 
+    left: 15%; 
+    transform: translate(-50%, -50%); 
+    color: #000000;
+    font-size: 20pt;
+    font-family: "Gill Sans", sans-serif;
+    padding: 10px;
+    border-radius: 5px;  
+    
+}
+.button-design{
+    position: absolute;
+    top: 80%; 
+    left: 11%; 
+    transform: translate(-50%, -50%); 
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:#844F5F;
+    border-color: #844F5F;
+    width: 150pt;
+    height: 42pt;
+}
+.button-design1{
+    position: absolute;
+    top: 80%; 
+    left: 26%;
+    transform: translate(-50%, -50%); 
+    color: #844F5F;
+    font-size: 20pt;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:#F7C6CC;
+    border-color: #844F5F;
+    width: 150pt;
+    height: 42pt;
+}
+.about-container {
+    position: relative;
+    display: inline-block;
+}
+
+.large {
+    display: block;
+    max-width: 100%;
+}
+.small{ 
+    position: absolute; 
+    top:40px; 
+    left: 40px;
+    max-width: 40%;
+    border-radius: 25px;
+}
+.about-text{
+    position: absolute;
+    top: 70%; 
+    left: 73%; 
+    transform: translate(-50%, -50%); 
+    color: #000000;
+    font-size: 15pt;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.title2{
+    font-family: "Gill Sans", sans-serif;
+    padding: 0;
+    margin-left: 30pt;
+    font-size: 20pt;
+    
+}
+
+.photo-container {
+    display: flex; 
+    margin-left: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.photo {
+    position: relative;
+    overflow: hidden;
+    max-width: 25%;
+    padding: 15px; 
+    box-sizing: border-box; 
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px; 
+    background-color:#844f5f88; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+.description-container {
+    display: flex; 
+    margin-left: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.description {
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    width: 83%;
+    position: relative;
+    overflow: hidden;
+    max-width: 25%; 
+    padding: 15px; 
+    box-sizing: border-box;
+    margin-top: -22px;
+}
+.description1 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    width: 83%;
+    position: relative;
+    overflow: hidden;
+    max-width: 25%; 
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: -22px;
+}
+.photo:hover .overlay {
+    transform: scale(1.03); 
+    opacity: 1;
+}
+.overlay-button {
+    background-color: #844F5F;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+        

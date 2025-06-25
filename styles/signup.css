@@ -1,0 +1,91 @@
+footer {
+    background-color: #F8F1F4;
+    color: #844F5F;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    background-color: #F8F1F4; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.title{
+    font-family: "Gill Sans", sans-serif;
+    padding: 0;
+    margin-left: 10pt;
+    font-size: 20pt;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 430pt;
+    margin-top: -28pt;
+    
+}
+
+ul.horizontal-menu li {
+    display: inline;
+    margin-right: 30px;
+    float: center;
+}
+
+ul.horizontal-menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12pt;
+    font-family: "Gill Sans", sans-serif;
+}
+ul.horizontal-menu li a:hover {
+    background-color: #844F5F; /* Background color for the menu items on hover */
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.title1{
+    font-family: "Gill Sans", sans-serif;
+    padding: 0;
+    margin-left: 41.5rem;
+    font-size: 35pt;
+    color: #844F5F;
+    margin-top: 3rem;
+
+}
+.signup-container {
+    margin-top: 3rem;
+    max-width: 30rem;
+    margin-left: 30rem;
+    padding: 2rem;
+    background-color: #F8F1F4;
+}
+
+/* Style form elements */
+.signup-container label,
+.signup-container input {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"],
+.signup-container input[type="phone"],
+.signup-container input[type="address"],
+.signup-container input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #fce8ea;
+    border-radius: 4px;
+}
+
+.signup-container button {
+    background-color: #844F5F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 12.5rem;
+}

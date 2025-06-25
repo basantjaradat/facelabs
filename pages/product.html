@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../styles/product.css">
+</head>
+<body>
+    <h1 class="title">Facelabs</h1>
+    <ul class="horizontal-menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Connect</a></li>
+        <li><a href="#">Ask</a></li>
+    </ul>
+    <div class="icons">
+        <a href="sign up.html"><i class="fas fa-user"></i></a>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-shopping-cart"></i>
+    </div> 
+    
+    <div class="product" >
+       
+        <div class="product img">
+        
+           
+            
+            <img class="image" src="../images/k1.png" alt="Photo 1" id="galleryImage">
+            <span class="arrow" id="next">&#10095;</span>
+        
+    </div>
+        <script>
+            
+            const images = ["../images/k1.png","../images/k2.png", "../images/k3.png", "../images/k4.png"];
+            let currentImageIndex = 0;
+    
+            
+            function updateImage() {
+                const imgElement = document.getElementById("galleryImage");
+                imgElement.src = images[currentImageIndex];
+            }
+    
+           
+           
+            const nextButton = document.getElementById("next");
+    
+            
+    
+            nextButton.addEventListener("click", () => {
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+                updateImage();
+            });
+    
+            
+            updateImage();
+        </script>
+       
+        <div class="product-details">
+            <h2>Detox Face Mask</h2>
+            <p>Price: 30$</p>
+            <p>treat your skin and purify pores with my detox face mask.</p>
+           
+            
+           
+            <div class="product-description">
+                <h3>Description:</h3>
+                <p>aqua/water/eau, kaolin ,bentonite, glycerin, tridecyl trimellitate, propanediol, sea silt,
+                     dicaprylyl carbonate, glyceryl stearate se, cetyl alcohol, charcoal powder, 1,2 hexanediol,
+                      actinidia chinensis (kiwi) seed oil, cetearyl alcohol, cetearyl olivate, chondrus crispus extract,
+                       ethylhexylglycerin, glyceryl stearate, hedychium coronarium root extract, helianthus annuus (sunflower)
+                        seed oil, hydroxyacetophenone, hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer, inulin, 
+                        pyrus malus (apple) fruit extract, sodium hyaluronate, sodium olivate, sodium stearoyl glutamate,
+                         sorbitan isostearate, sorbitan olivate, tocopherol, 
+                    trisodium ethylenediamine disuccinate, xanthan gum, chlorphenesin, 12m phenoxyethanol.</p>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</body>
+<footer> 
+    <div class="connect">
+        <h3>Connect with Us</h3>
+        <a href="https://www.facebook.com/KylieCosmetics/"><p>facebook</p></a>
+        <a href="https://twitter.com/kyliecosmetics"><p>twitter</p></a>
+        <a href="https://www.instagram.com/kyliecosmetics/"><p>instagram</p></a>
+    </div>
+    <p>&copy; 2023 Basant Jaradat. All rights reserved.</p>
+</div>
+</footer>
+</html>
